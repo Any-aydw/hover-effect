@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+div{
+    width: 236px;
+    height: 354px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-image: url(./img/gato\ negro.jpg);
+    
+}
+img{
+    border-radius: 80%;
+}
+ div img:hover{
+    opacity: 0;
+    transition: 2s ease all;
+
+ }
